@@ -18,6 +18,9 @@
 		180956C41D015B1100CBA860 /* taobao1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180956C21D015B1100CBA860 /* taobao1.jpg */; };
 		180956C61D015BCF00CBA860 /* taobao4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180956C51D015BCF00CBA860 /* taobao4.jpg */; };
 		180956C81D015BD300CBA860 /* taobao3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180956C71D015BD300CBA860 /* taobao3.jpg */; };
+		180956CC1D01688700CBA860 /* outfitter3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180956C91D01688700CBA860 /* outfitter3.jpg */; };
+		180956CD1D01688700CBA860 /* outfitter4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 180956CA1D01688700CBA860 /* outfitter4.jpg */; };
+		180956CE1D01688700CBA860 /* outffiter2.png in Resources */ = {isa = PBXBuildFile; fileRef = 180956CB1D01688700CBA860 /* outffiter2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		180956C21D015B1100CBA860 /* taobao1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taobao1.jpg; sourceTree = "<group>"; };
 		180956C51D015BCF00CBA860 /* taobao4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taobao4.jpg; sourceTree = "<group>"; };
 		180956C71D015BD300CBA860 /* taobao3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taobao3.jpg; sourceTree = "<group>"; };
+		180956C91D01688700CBA860 /* outfitter3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = outfitter3.jpg; sourceTree = "<group>"; };
+		180956CA1D01688700CBA860 /* outfitter4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = outfitter4.jpg; sourceTree = "<group>"; };
+		180956CB1D01688700CBA860 /* outffiter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outffiter2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				180956C21D015B1100CBA860 /* taobao1.jpg */,
 				180956C51D015BCF00CBA860 /* taobao4.jpg */,
 				180956C71D015BD300CBA860 /* taobao3.jpg */,
+				180956C91D01688700CBA860 /* outfitter3.jpg */,
+				180956CA1D01688700CBA860 /* outfitter4.jpg */,
+				180956CB1D01688700CBA860 /* outffiter2.png */,
 				180956A71D0159F200CBA860 /* Supporting Files */,
 			);
 			path = "换衣服动画";
@@ -157,7 +166,10 @@
 				180956C81D015BD300CBA860 /* taobao3.jpg in Resources */,
 				180956B71D0159F200CBA860 /* Assets.xcassets in Resources */,
 				180956C31D015B1100CBA860 /* taobao2.jpg in Resources */,
+				180956CC1D01688700CBA860 /* outfitter3.jpg in Resources */,
+				180956CD1D01688700CBA860 /* outfitter4.jpg in Resources */,
 				180956B21D0159F200CBA860 /* Main.storyboard in Resources */,
+				180956CE1D01688700CBA860 /* outffiter2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +330,7 @@
 				180956C01D0159F200CBA860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

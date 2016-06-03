@@ -17,15 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taobao1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ozZ-dR-hBc">
-                                <rect key="frame" x="0.0" y="-132" width="409" height="836"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ptk-LL-Gla">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="outfitter3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ozZ-dR-hBc">
+                                        <rect key="frame" x="-90" y="1" width="554" height="666"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bw5-C4-Di4">
                                 <rect key="frame" x="0.0" y="1" width="377" height="340"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taobao4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ChZ-90-KnW">
-                                        <rect key="frame" x="-160" y="-97" width="576" height="1083"/>
-                                    </imageView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKk-2l-Pke">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="outffiter2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ChZ-90-KnW">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            </imageView>
+                                        </subviews>
+                                    </scrollView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -33,15 +43,39 @@
                                 <rect key="frame" x="-1" y="339" width="377" height="5"/>
                                 <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
+                            <view autoresizesSubviews="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9o-FW-cDG">
+                                <rect key="frame" x="-6" y="479" width="387" height="188"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZQ-gE-8lj">
+                                        <rect key="frame" x="8" y="0.0" width="371" height="188"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="outfitter4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QGV-tD-sB3">
+                                                <rect key="frame" x="0.0" y="-479" width="376" height="667"/>
+                                            </imageView>
+                                        </subviews>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-lK-UTB">
+                                <rect key="frame" x="0.0" y="479" width="377" height="5"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="clipShoeUIView" destination="g9o-FW-cDG" id="h8q-Gk-WA5"/>
                         <outlet property="clipUIView" destination="bw5-C4-Di4" id="nUY-UP-9dS"/>
                         <outlet property="imageView1" destination="ChZ-90-KnW" id="Kl5-UI-H9a"/>
                         <outlet property="imageView2" destination="ozZ-dR-hBc" id="0dr-l3-YXI"/>
-                        <outlet property="lineButton" destination="8Qv-4p-Xq1" id="mWZ-DY-tMx"/>
+                        <outlet property="imageView3" destination="QGV-tD-sB3" id="cHg-VN-55G"/>
+                        <outlet property="lineShirtButton" destination="8Qv-4p-Xq1" id="fWz-oE-rU8"/>
+                        <outlet property="lineShoeButton" destination="OJi-lK-UTB" id="Niz-lY-K9N"/>
+                        <outlet property="scrollView1" destination="LKk-2l-Pke" id="mUB-zL-tHF"/>
+                        <outlet property="scrollView2" destination="Ptk-LL-Gla" id="ft2-8K-UdF"/>
+                        <outlet property="scrollView3" destination="UZQ-gE-8lj" id="dyb-hG-0Jt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -50,7 +84,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="taobao1.jpg" width="254" height="391"/>
-        <image name="taobao4.jpg" width="750" height="1026"/>
+        <image name="outffiter2.png" width="230" height="414"/>
+        <image name="outfitter3.jpg" width="750" height="750"/>
+        <image name="outfitter4.jpg" width="750" height="1095"/>
     </resources>
 </document>
